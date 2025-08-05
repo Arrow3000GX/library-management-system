@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 import sqlite3
-print(starting)
 class LibraryDB:
     def __init__(self, db_name="library.db"):
         self.conn = sqlite3.connect(db_name, check_same_thread=False)
